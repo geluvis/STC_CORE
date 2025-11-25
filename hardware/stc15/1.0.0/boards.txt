@@ -1,0 +1,8 @@
+menu.cpu=MCU Model
+
+stc15f204ea.name=STC15F204EA
+stc15f204ea.upload.maximum_size=4096
+stc15f204ea.build.mcu=stc15f204ea
+stc15f204ea.build.f_cpu=11059200L
+stc15f204ea.build.core=stc15
+stc15f204ea.build.variant=stc15f204ea

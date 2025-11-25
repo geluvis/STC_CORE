@@ -1,0 +1,5 @@
+name=STC15 platform
+version=1.0.0
+runtime.tools.stc-isp.path={runtime.hardware.path}/tools/stc-isp
+tools.stc-isp.cmd=stcflash
+tools.stc-isp.upload.pattern="{cmd}" "{build.path}/{build.project_name}.hex"
