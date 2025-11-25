@@ -1,0 +1,61 @@
+{
+  "packages": [
+    {
+      "name": "stc15",
+      "maintainer": "geluvis",
+      "websiteURL": "https://github.com/geluvis/Arduino_STC15_Core",
+      "email": "noreply@example.com",
+      "help": {
+        "online": "https://github.com/geluvis/Arduino_STC15_Core/issues"
+      },
+
+      "platforms": [
+        {
+          "name": "STC15 MCU Family",
+          "architecture": "stc15",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/geluvis/Arduino_STC15_Core/main/stc15-1.0.0.zip",
+          "archiveFileName": "stc15-1.0.0.zip",
+          "checksum": "SHA-256:dummy",
+          "size": "0",
+
+          "boards": [
+            { "name": "STC15F204EA" }
+          ],
+
+          "toolsDependencies": [
+            {
+              "packager": "stc15",
+              "name": "stc-isp",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      ],
+
+      "tools": [
+        {
+          "name": "stc-isp",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "x86_64-pc-windows",
+              "archiveFileName": "stc-isp-1.0.0-windows.zip",
+              "url": "https://raw.githubusercontent.com/geluvis/Arduino_STC15_Core/main/tools/stc-isp-1.0.0-windows.zip",
+              "checksum": "SHA-256:dummy",
+              "size": "0"
+            },
+            {
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "stc-isp-1.0.0-linux.zip",
+              "url": "https://raw.githubusercontent.com/geluvis/Arduino_STC15_Core/main/tools/stc-isp-1.0.0-linux.zip",
+              "checksum": "SHA-256:dummy",
+              "size": "0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
